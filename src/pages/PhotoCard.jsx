@@ -67,7 +67,7 @@ const PhotoCard = ({photo}) => {
         <div>
           New
         </div>
-        <img className="w-full h-48" src={photo.imageUrl} alt="NIKE" />
+        <img className="w-full h-48 product-card-ratio " src={photo.imageUrl} alt="NIKE" />
         <div>
           <P size="xl" className="font-bold flex items-center justify-center">{photo.Title}</P>
           <div className="flex justify-between items-center mx-4 py-3" >

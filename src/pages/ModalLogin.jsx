@@ -7,7 +7,6 @@ const ModalLogin = ({ onClose }) => {
   return (
     <div className="fixed inset-0 flex justify-center items-center bg-black bg-opacity-50">
       <div className="bg-white rounded-lg p-8 w-80">
-        <span onClick={onClose} className="absolute top-0 right-0 cursor-pointer text-xl">&times;</span>
 
         <form className="space-y-4">
         <span onClick={onClose} className="absolute top-[28%] right-[39%] font-bold cursor-pointer text-red-500 text-xl hover:scale-[.9]">&times;</span>
