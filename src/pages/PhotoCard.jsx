@@ -63,7 +63,7 @@ export default Card;
 const PhotoCard = ({photo}) => {
   return(
     <div className="relative group cursor-pointer">
-      <div className="p-4 bg-gray-100 border-gray-400 rounded-2xl shadow-md transition duration-300 ease-in-out transform group-hover:scale-100">
+      <div className="p-4 bg-gray-100 border-gray-400 rounded-2xl shadow-md transition-all duration-300 ease-in-out transform group-hover:scale-[.9] ">
         <div>
           New
         </div>
@@ -80,10 +80,10 @@ const PhotoCard = ({photo}) => {
             <P>{photo.price}</P>
           </div>
           <div className="flex justify-between items-center text-sm ">
-            <Button variant="danger">
+            <Button variant="danger" className="sm:text-sm md:text-base lg:text-lg xl:text-xl">
               Buy Now
             </Button>
-            <Button variant="secondary">
+            <Button variant="secondary" className="sm:text-sm md:text-base lg:text-lg xl:text-xl">
               Add To Card
             </Button>
           </div>
