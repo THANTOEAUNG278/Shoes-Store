@@ -1,7 +1,7 @@
 import Button from "../component/base/Button";
 const HomeContainer = () => {
   return(
-    <div className="flex justify-between py-12 ">
+    <div className="flex justify-between py-7 ">
     <div>
       <h1 className="text-red-600 font-bold text-5xl mt-20 py-3">NIKE'S SUMMER</h1>
       <h3 className="font-bold text-3xl py-3">COLLECTIONS 2024</h3>
