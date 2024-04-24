@@ -7,7 +7,7 @@ const Button = ({ children, className = '', variant = 'primary' }) => {
       variantClasses = 'bg-blue-500 text-white hover:bg-blue-600';
       break;
     case 'secondary':
-      variantClasses = 'bg-gray-300 text-gray-700 hover:bg-gray-400';
+      variantClasses = 'bg-gray-300 text-gray-950 hover:bg-gray-400';
       break;
     case 'danger':
       variantClasses = 'bg-red-500 text-white hover:bg-red-600';
