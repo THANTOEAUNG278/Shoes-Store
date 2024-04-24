@@ -80,10 +80,10 @@ const PhotoCard = ({photo}) => {
             <P>{photo.price}</P>
           </div>
           <div className="flex justify-between items-center text-sm ">
-            <Button variant="danger" className="sm:text-sm md:text-base lg:text-lg xl:text-xl">
+            <Button variant="danger" className="sm:text-sm md:text-base ">
               Buy Now
             </Button>
-            <Button variant="secondary" className="sm:text-sm md:text-base lg:text-lg xl:text-xl">
+            <Button variant="secondary" className="sm:text-sm md:text-base">
               Add To Card
             </Button>
           </div>
