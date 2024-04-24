@@ -3,6 +3,9 @@ import { useState } from 'react';
 import ModalLogin from "../pages/ModalLogin";
 
 const Navigate = () =>{
+  const isActive = ({isActive}) => {
+    return isActive ? 'active' : ''
+  }
   const [showModal, setShowModal] = useState(false);
 
   return(
@@ -13,7 +16,7 @@ const Navigate = () =>{
         </div>
         <div className="flex gap-5 text-md ">
           <div className="hover:underline">
-            <NavLink to={"/"}>Home</NavLink>
+            <NavLink className={isActive} to={"/"}>Home</NavLink>
           </div>
           <div className="hover:underline">
             <NavLink to={"category"}>Category</NavLink>
