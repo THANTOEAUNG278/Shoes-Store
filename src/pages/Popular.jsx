@@ -1,7 +1,9 @@
+import PopularProducts from "./PopularProducts";
+
 const PopularPage =() =>{
   return (
-    <div>
-      hello Popularpages
+    <div className="mt-20">
+      <PopularProducts/>
     </div>
   )
 }

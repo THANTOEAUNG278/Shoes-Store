@@ -12,7 +12,7 @@ const HomeContainer = () => {
       </Button>
     </div>
     <div>
-      <img className="w-96 " src="https://i.pinimg.com/originals/3f/91/bb/3f91bb309e9fc8ee9d34bcbfa7fb58d6.gif" alt="NIKE" />
+      <img className="w-96" src="https://i.pinimg.com/originals/3f/91/bb/3f91bb309e9fc8ee9d34bcbfa7fb58d6.gif" alt="NIKE" />
     </div>
   </div>
   )
