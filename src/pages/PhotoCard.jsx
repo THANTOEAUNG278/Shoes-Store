@@ -67,7 +67,7 @@ const PhotoCard = ({photo}) => {
         <div>
           New
         </div>
-        <img className="w-full h-48 product-card-ratio " src={photo.imageUrl} alt="NIKE" />
+        <img className="w-full object-cover product-card-ratio " src={photo.imageUrl} alt="NIKE" />
         <div>
           <P size="xl" className="font-bold flex items-center justify-center">{photo.Title}</P>
           <div className="flex justify-between items-center mx-4 py-3" >
@@ -80,10 +80,10 @@ const PhotoCard = ({photo}) => {
             <P>{photo.price}</P>
           </div>
           <div className="flex justify-between items-center text-sm ">
-            <Button variant="danger" className="sm:text-sm md:text-base ">
+            <Button variant="danger" className=" md:text-sm ">
               Buy Now
             </Button>
-            <Button variant="secondary" className="sm:text-sm md:text-base">
+            <Button variant="secondary" className="md:text-sm">
               Add To Card
             </Button>
           </div>
