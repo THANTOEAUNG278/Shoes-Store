@@ -36,7 +36,7 @@ const ModalLogin = ({onClose}) => {
           </div>
 
           <div className="text-right">
-            <button className="text-red-600 hover:text-red-500 mr-2" onClick={onClose}>Cancle</button>
+            <button className="text-red-600 hover:text-red-500 mr-2 hover:underline" onClick={onClose}>Cancle</button>
             <span>
               <a className="text-blue-500 hover:underline">Forgot Password?</a>
             </span>
