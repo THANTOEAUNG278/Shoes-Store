@@ -64,7 +64,7 @@ const PhotoCard = ({photo}) => {
   return(
     <div className="relative group cursor-pointer">
       <div className="p-4 bg-gray-100 border-gray-400 rounded-2xl shadow-md transition-all duration-300 ease-in-out transform group-hover:scale-[.9] ">
-        <div>
+        <div className="text-red-600 font-bold">
           New
         </div>
         <img className="w-full object-cover product-card-ratio " src={photo.imageUrl} alt="NIKE" />
