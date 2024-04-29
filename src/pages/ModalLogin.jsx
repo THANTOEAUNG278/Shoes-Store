@@ -9,17 +9,17 @@ const ModalLogin = ({onClose}) => {
     <div className="fixed flex inset-0 justify-center items-center bg-black bg-opacity-50">
       <div className="bg-white rounded-lg p-8 w-80">
         <form className="space-y-4" onSubmit={handleSubmit(onSubmit)}>
-        <span onClick={onClose} className="absolute top-[28%] right-[39%] font-bold cursor-pointer text-red-500 text-xl hover:scale-[.9]">&times;</span>
+        <span onClick={onClose} className="absolute top-[28%] right-[39%] font-bold cursor-pointer text-red-500 text-2xl hover:scale-[.9]">&times;</span>
           <div>
-            <label htmlFor="username" className="block">Useremail</label>
+            <label htmlFor="username" className="block text-black">Useremail</label>
           <input
           className="w-full px-3 py-2 text-black border border-gray-300 rounded focus:outline-none focus:ring focus:ring-blue-400"
           type="email" defaultValue="" {...register("username",{required: "! Input Username",pattern: {value:/A-z$/,message:"! Invalud" } })} placeholder="Enter Useremail" />
           <p className="text-red-500">{errors?.username?.message}</p>
           </div>
 
-          <div>
-            <label htmlFor="password" className="block">Password</label>
+          <div> 
+            <label htmlFor="password" className="block text-black ">Password</label>
             <input
             className="w-full px-3 py-2 border text-black border-gray-300 rounded focus:outline-none focus:ring focus:ring-blue-400"
             type="password" defaultValue="" {...register("password")} placeholder="Enter Password" />
