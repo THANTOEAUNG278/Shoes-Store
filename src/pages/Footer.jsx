@@ -18,9 +18,9 @@ const FooterPages = () => {
       </div>
       <div className="flex justify-center items-center">
         <P className="font-bold">
-          <P size="xl" className="py-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit  Officia accusantium impedit.</P>
-           <P size="lg" className="px-10 py-2">etdelectus voluptates non iure voluptatibus sed maiores dolore soluta molestias, </P>
-          <P className="px-28 py-2"> pariatur doloribus dolorum alias aliquid laboriosam quo expedita?</P>
+          <P size="xl" className="py-2"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit  Officia accusantium impedit.</em></P>
+           <P size="lg" className="px-10 py-2"><em>etdelectus voluptates non iure voluptatibus sed maiores dolore soluta molestias,</em> </P>
+          <P className="px-28 py-2"><em> pariatur doloribus dolorum alias aliquid laboriosam quo expedita?</em></P>
         </P>
       </div>
     </div>
